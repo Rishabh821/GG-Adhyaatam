@@ -16,7 +16,7 @@ createRoot(document.getElementById('root')).render(
     <Jumbotron />
     <Product/>
     <ProductSpec />
-    <Review />
-    <Footer />
+    <Checkout />
+    <Review />    
   </StrictMode>,
 )

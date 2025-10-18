@@ -9,14 +9,20 @@ import Product from './Components/Product.jsx';
 import ProductSpec from './Components/Productspecs.jsx'
 import Review from './Components/Reviews.jsx';
 import Checkout from './Components/Checkout.jsx'
+import ProductSpex from './Components/prospex1.jsx'
+import Review1 from './Components/Review1.jsx'
+import Review2 from './Components/Review2.jsx'
+import FAQ from './Components/FAQ.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Navbar />
     <Jumbotron />
     <Product/>
-    <ProductSpec />
-    <Checkout />
-    <Review />    
+    <ProductSpex />
+    <Review2 />
+    <FAQ />
+    <Footer />
+    
   </StrictMode>,
 )

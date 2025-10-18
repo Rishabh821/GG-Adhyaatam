@@ -5,12 +5,11 @@ import prospec3 from "../assets/prospec3.jpg";
 
 export default function ProductSpec() {
   const features = [
-    { name: 'Origin', description: 'Designed by Good Goods, Inc.' },
-    { name: 'Material', description: 'Solid walnut base with rare earth magnets and powder coated steel card cover' },
-    { name: 'Dimensions', description: '6.25" x 3.55" x 1.15"' },
-    { name: 'Finish', description: 'Hand sanded and finished with natural oil' },
-    { name: 'Includes', description: 'Wood card tray and 3 refill packs' },
-    { name: 'Considerations', description: 'Made from natural materials. Grain and color vary with each item.' },
+    { name: 'Original Ramcharitmanas Sheet', description: 'Traditional text — high quality print.' },
+    { name: 'Numeral Version Sheet', description: 'Simplified version with numbers for easy reading.' },
+    { name: 'Answer Booklet', description: 'Meanings and guidance for each number.' },
+    { name: 'Pouch & Pen', description: 'Elegant finish, ready as a gift.' },
+
   ];
 
   return (
@@ -30,9 +29,12 @@ export default function ProductSpec() {
                 <dt className="font-medium text-gray-900">{feature.name}</dt>
                 <dd className="mt-2 text-sm text-gray-500">{feature.description}</dd>
               </div>
+              
             ))}
           </dl>
+          
         </div>
+        
         <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
           <img
             alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
